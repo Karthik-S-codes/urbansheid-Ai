@@ -41,6 +41,33 @@ export default function AboutPage() {
                             Our Hybrid Intelligence Engine sits at the intersection of deterministic rule-based algorithms and evolving predictive analytics. Rather than relying solely on black-box heuristics, UrbanShield calculates compound risk factors—bridging flood dynamics, heat stress, and population density into a single unified resilience metric.
                         </p>
                     </section>
+
+                    <section>
+                        <h2 className="font-sans text-xl font-black uppercase tracking-tight text-[var(--color-navy)] mb-4">
+                            4. Acknowledgements
+                        </h2>
+                        <p>
+                            This prototype acknowledges Open-Meteo for weather
+                            telemetry, OpenStreetMap contributors for map data,
+                            Nominatim for location search, Leaflet for map
+                            rendering, and the open-source software listed in
+                            the project README. Map and weather data remain
+                            subject to their providers&apos; attribution,
+                            licence, and usage policies.
+                        </p>
+                        <p className="mt-4 text-sm font-sans">
+                            Full links and licensing notes are available in the{" "}
+                            <a
+                                href="https://github.com/Karthik-S-codes/urbansheid-Ai#third-party-acknowledgements"
+                                target="_blank"
+                                rel="noreferrer"
+                                className="font-bold text-[var(--color-accent)] underline"
+                            >
+                                repository acknowledgements
+                            </a>
+                            .
+                        </p>
+                    </section>
                 </div>
             </div>
         </main>
